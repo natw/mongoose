@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>This is a test for Leapfrog</title>
+</head>
+
+<body>
+This is a test for Leapfrog
+<span class="mm-phone-number">(847) 440-8941</span>
+<br />
+<a href="/bar.html">bar</a>
+
+
+<!-- Begin Mongoose Metrics Tracking Code -->
+<script type="text/javascript">
+var mm_c = '70edfc220f3c9dac2f13ff4f0fa71611';
+var mm_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+document.write(unescape("%3Cscript src='" + mm_protocol + "www.mongoosemetrics.com/jsfiles/js-correlation/mm-getvar.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+/* Custom Parameters */
+/* MANDATORY default_number Setup Parameter DO NOT REMOVE */
+var default_number=''; /* 10 Digits Only i.e. 8881234567 */
+enable_mm_directories();
+
+var mm_referring_url = mm_gv_referrer;
+var mm_link = document.createElement("a");
+mm_link.href = mm_referring_url;
+
+if (getURLVar('keyword') == ''
+        && getURLVar('mm_keyword') == '')
+{
+    if (mm_link.hostname.indexOf('google') == -1
+        && mm_link.hostname.indexOf('bing') == -1
+        && mm_link.hostname.indexOf('yahoo') == -1)
+    {
+        var override_keyword = mm_link.hostname;
+        var override_source = 'other';
+    }
+}
+
+var custom1 = 'hello';
+var override_keyword = 'asdf';
+var override_source = 'fnord';
+
+
+/* Custom Parameters */
+
+</script>
+<script type="text/javascript">
+document.write(unescape("%3Cscript src='" + mm_protocol + "www.mongoosemetrics.com/jsfiles/js-correlation/mm-control.php%3F" + mm_variables + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- End Mongoose Metrics Tracking Code -->
+
+</body>
+</html>
