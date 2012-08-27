@@ -7,7 +7,7 @@
 
 <body>
 This is a test for Leapfrog
-<span class="mm-phone-number">(847) 440-8941</span>
+<span class="mm-phone-number">(855) 739-4964</span>
 <br />
 <a href="/mongoose/bar.html">bar</a>
 
@@ -22,30 +22,12 @@ document.write(unescape("%3Cscript src='" + mm_protocol + "www.mongoosemetrics.c
 /* Custom Parameters */
 /* MANDATORY default_number Setup Parameter DO NOT REMOVE */
 var default_number=''; /* 10 Digits Only i.e. 8881234567 */
+var enable_direct_tracking = true;
 enable_mm_directories();
 
-var mm_referring_url = mm_gv_referrer;
-var mm_link = document.createElement("a");
-mm_link.href = mm_referring_url;
-
-if (getURLVar('keyword') == ''
-        && getURLVar('mm_keyword') == '')
-{
-    if (mm_link.hostname.indexOf('google') == -1
-        && mm_link.hostname.indexOf('bing') == -1
-        && mm_link.hostname.indexOf('yahoo') == -1)
-    {
-        var override_keyword = mm_link.hostname;
-        var override_source = 'other';
-    }
-}
-
 var custom1 = 'hello';
-var override_keyword = 'asdf';
-var override_source = 'fnord';
-
-
 /* Custom Parameters */
+
 
 </script>
 <script type="text/javascript">
