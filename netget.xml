@@ -1,6 +1,7 @@
 <action>
     <app>findme</app>
     <parameters>
-        <phone_list>18474408941</phone_list>
+        <!-- <phone_list>18474408941</phone_list> -->
+        <id>321354</id>
     </parameters>
 </action>
