@@ -1,0 +1,6 @@
+<action>
+    <app>findme</app>
+    <parameters>
+        <phone_list>18475555555|18474408941</phone_list>
+    </parameters>
+</action>
